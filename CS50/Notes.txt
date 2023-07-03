@@ -1,0 +1,35 @@
+c
+
+# libraris in C
+    <stdio.h>
+#functions in C
+    get_char ---for get an character
+    get_float ---for get a decimal number
+    get_int --- for get an integer   
+    get_string ---sequence of text 
+    get_long
+    get_double
+
+#Conditions
+    if else
+    for
+#Loops
+    counter
+    for 
+    while
+    do while
+#variables
+    a+=1--a=a+1
+    a-=1--a=a-1
+#command line 
+    cd--change the directory
+    cp--copy a file
+    ls --list all of the current folder in the hard drive
+    mkdir --make a directory
+    mv--move
+    rm--remove
+    rmdir--remove directory
+
+
+Arrays
+
