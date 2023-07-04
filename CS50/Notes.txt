@@ -31,5 +31,97 @@ c
     rmdir--remove directory
 
 
-Arrays
+Strings
+    strlen(), strcpy(), strcat()
+
+algorithm
+
+An algorithm is a step-by-step procedure or set of instructions for solving a problem.
+
+linear search
+
+Linear search is a simple search algorithm that sequentially checks each element in a list or array until the 
+target element is found or the end of the list is reached.
+
+Binary search
+
+It works by repeatedly dividing the search space in half and comparing the middle element with the target value.
+If the middle element matches the target, the search is successful.If the middle element is greater than the target
+the search continues in the lower half of the list.
+
+sorting
+
+arranging elements in a specific order, such as ascending or descending.
+
+
+bubble sorting
+
+It repeatedly compares adjacent elements and swaps them if they are in the wrong order
+Bubble sort is a stable sorting algorithm, it preserves the relative order of equal elements.
+
+recursion
+
+Recursion is a programming technique where a function calls itself to solve a problem.
+recursive algorithms may have higher time complexity and may require more memory compared to iterative solutions
+
+Merge sort
+
+Merge sort is a popular and efficient sorting algorithm based on the divide-and-conquer principle.
+It recursively divides the input array into smaller subarrays until each subarray contains only one element.
+It then merges the sorted subarrays back together to produce the final sorted result.
+
+
+hexadecimal
+
+It uses 16 symbols: the digits 0-9 and the letters A-F, where A represents 10, B represents 11, and so on
+Hexadecimal digits have decimal equivalents: A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.
+count as high as 255 using hexa decimal because ff=16*15+1*15==255
+
+pointers
+
+Pointers are variables that store memory addresses.
+They allow direct manipulation and access to data in computer memory.
+Pointers are widely used in low-level programming, memory management, and data structures.
+Pointers enable efficient passing of large data structures to functions by passing the memory address instead of the entire data.
+
+swap
+
+The "swap" operation is a common programming technique used to exchange the values of two variables.
+Swapping can be done using a temporary variable to store the value of one variable before overwriting it with 
+the value of the other variable.
+Swapping allows for reordering or reassigning values between variables without losing any data.
+
+overflow
+
+Overflow occurs when a value exceeds the maximum representable value for its data type.
+In computer systems, data types have a limited range of representable values.
+Overflow can happen in both signed and unsigned integer types.
+
+
+scanf
+
+scanf is a function in C used for reading input from the user or a file.
+It allows the program to receive input values and store them in variables.
+scanf uses format specifiers to specify the expected data type and format of the input.
+Common format specifiers include "%d" for integers, "%f" for floats, "%c" for characters, and "%s" for strings.
+
+
+resizing arrays
+
+Resizing an array involves changing its size dynamically during program execution.
+Arrays in many programming languages have a fixed size determined at the time of declaration.
+Resizing an array allows for flexibility in handling varying amounts of data.
+Resizing can be done by creating a new array with a different size and copying the elements from the old array to the new one.
+Resizing can also involve allocating additional memory or freeing up unused memory as needed.
+
+
+Linked list
+
+A linked list is a data structure that consists of nodes linked together via pointers.
+Each node contains data and a pointer/reference to the next node in the list.
+Linked lists are useful when the size of the data is not known in advance or when frequent 
+insertion and deletion operations are required.
+Linked lists provide dynamic memory allocation and can grow or shrink as needed.
+They allow efficient insertion and deletion of elements at any position.
+
 
