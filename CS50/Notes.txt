@@ -124,4 +124,42 @@ insertion and deletion operations are required.
 Linked lists provide dynamic memory allocation and can grow or shrink as needed.
 They allow efficient insertion and deletion of elements at any position.
 
+Python
+
+types
+
+    integer
+    floats
+    boolean
+    lists
+    none
+    Strings
+    range
+    dictionaries
+    
+
+HTML
+
+HTML is a markup language used to structure and present content on the web.
+HTML tags are used to define elements such as headings, paragraphs, lists, images, links, and more.
+Elements can be nested inside each other to create hierarchical structures.
+Attributes provide additional information about elements, such as styling or behavior.
+HTML provides semantic tags like <header>, <nav>, <main>, and <footer> for better document structure.
+
+css
+
+cSS is used to style and format HTML documents.
+CSS rules consist of selectors and declarations.
+Selectors target HTML elements, classes, or IDs to apply styles.
+Declarations define the styles applied to selected elements, such as color, font, margin, and more.
+CSS properties can be inherited, overridden, or cascaded based on their specificity.
+
+javascript
+
+JavaScript is a programming language that adds interactivity and dynamic behavior to web pages.
+It can manipulate HTML and CSS, handle events, and perform calculations.
+JavaScript can be embedded within HTML using the <script> tag or stored in separate files.
+JavaScript provides variables, data types, operators, functions, and control structures for programming logic.
+The Document Object Model (DOM) allows JavaScript to access and modify HTML elements dynamically.
+
 
