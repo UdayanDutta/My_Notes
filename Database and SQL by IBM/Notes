@@ -1,0 +1,265 @@
+SQL (Structed query language)
+
+A language used for relational databases
+
+database--repository of data
+dbms-software to manage databases
+
+rdms--relational database management system ...used in banking,bussiness etc.
+rdms example-- MySQL,Oracle database,IBM db2 etc.
+
+basic SQL commands
+    1.Create a table
+    2.Insert
+    3.Select
+    4.Update
+    5.Delete
+
+Select Statement
+
+A data manipulation Language statement used to read and modify data
+select * from table name
+
+Count Statement
+
+a built in function that retrieves the number of rows matching the query criteria.
+
+select count(*) froom tablename
+
+Distinct Statement
+
+Distinct is used to remove duplicate values from a result set.
+
+select distinct columnname from tablename
+
+Limit Statement
+
+Limit is used for restricting the number of rows retrieved from the database.
+select*from tablename LIMIT (Number of rows)
+OFFSET for Starting From row Number.
+
+INSERT Statement
+
+a data manipulation language statement used to read and modify data
+INSERT INTO tablename
+        <([columnname],...)>
+        VALUES([Value],...)
+    one insert statement can insert one or multiple row of a table.
+
+Update Statement
+
+a data manipulation Language statement used to read and modify data.
+UPDATE[TablName]
+SET[[COlumnName]=[Value]]
+<WHERE[Conditon]>
+
+DELETE Statement
+
+a data manipulation language statement used to read and modify data.
+DELETE FROM [TableName]
+<WHERE[Condition]>
+
+
+Types of SQL Statements
+Data Defination Language(DDL)Statement:Define,Change,or drop data
+Common DDL: 
+CREATE:Create a table 
+ALTER:Alter a table and modifying the data type.
+TRUNCATE:deleting a data in a table but not the table itself.
+DROP:Delete a table
+
+Data Manipulation Language(DML) Statement:
+
+Common DML:
+INSERT: Inserting a row into a table
+SELECT:Select row or rows from a table.
+UPDATE:Edit a row or rows in a table.
+DELETE:Delete row or rows from a table
+
+
+DDL used fot defining objects(Table)
+
+DML used for manipulating data in tables. 
+
+
+CREATE Table
+syntax: 
+CREATE TABLE table_name
+(
+    column_name_1 datatype otional_parameters,
+    column_name_2 datatype,
+
+
+    ...
+    column_name_n datatype 
+)
+
+Examples of Cloud databases
+IBM Db2
+Databases for PostgreSQL
+Oracle Database Cloud Service
+Microsoft Azure SQL Database
+Amazon Relational Database Servicres
+
+Retrieving rows using a string pattern 
+
+where requires a predicate
+a predicate is an expression that evalutes to true,false,or unknown.
+use the LIKE predicate with string patterns for the search.
+WHERE<columnname>LIKE<string pattern%>
+
+Range
+
+between
+
+or
+
+Grouping the result set
+
+select distinct columnname from table name.
+
+select coloumname,count column name as count from Table name GROUP BY Column name.
+
+group by column name
+having count(column name)>number.
+
+Built in Functions
+
+SUM
+
+select SUM(Column Name) from tablename
+
+select SUM(column name) as name from table name
+
+MIN,MAX
+select MAX(Column name) from table name
+
+select MIN(Column name) from table name
+
+AVERAGE
+select AVG(column name) from tablename
+
+select AVG(column name/column name) from table name where...
+
+Scaler and string functions
+
+select ROUND(column name)from tablename
+
+string
+select LENGTH(column name) from table name
+
+UCASE & LCASE
+select UCASE(column name) from tablename
+
+select LCASE(column name) from tablename
+
+select* from tablename
+where LCASE(column name)=".."
+
+select DISTINCT(UCASE(column name))from tablename
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
