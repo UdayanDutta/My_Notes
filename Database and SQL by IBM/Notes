@@ -1,3 +1,4 @@
+
 SQL (Structed query language)
 
 A language used for relational databases
@@ -157,6 +158,53 @@ select* from tablename
 where LCASE(column name)=".."
 
 select DISTINCT(UCASE(column name))from tablename
+
+
+writing code using DB-API
+
+#create connection object
+
+connection=connect('databasename','username,'pswd')
+
+#create a cursor object
+
+Cursor=connection.cursor()
+
+#Run Queries
+
+Cursor.execute('select*from mytable')
+
+Results=cursor.fetchall()
+
+#Free resorces 
+
+Cursor.close()
+Connection.close()
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
