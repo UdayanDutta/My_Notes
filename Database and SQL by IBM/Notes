@@ -182,6 +182,43 @@ Cursor.close()
 Connection.close()
 
 
+querying column names with mixed (Upper and lower)
+case
+
+
+select Id from tablename
+
+using quotes in jupyter notebooks
+
+first assign queries to variables:
+selectQuery='select "Id" from tablename'
+
+use a backslash\as the escape character in case
+where the query contains single quotes:
+
+selectQuery='select*from tablename'
+where "columnname"=\'Character'\''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
